@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="Basket.css"></link></head>
+  <body>
+      <div class="container">
+        <h2 class="cart-header">CART</h2>
+        <div class = "items">
+            <div class="item-row">
+                <span class="item-column item-header item-title">TITLE</span>
+                <span class="item-column item-header item-price">PRICE</span>
+                <span class="item-column item-header item-quantity">QUANTITY</span>
+            </div>
+            <div class="item-row">
+                <span class="item-column item-title item-description"> First Item </span>
+                <span class = "item-column item-price"> $19.99</span>
+                <div class="item-column item-quantity">
+                    <input class="item-quantity-input" type="number" />
+                    <button class= "btn btn-delete">Remove</button>
+                </div>
+            </div>
+            <div class="item-row">
+                    <span class="item-column item-title item-description"> Second Item </span>
+                    <span class = "item-column item-price"> $14.38</span>
+                    <div class="item-column item-quantity">
+                        <input class="item-quantity-input" type="number" />
+                        <button class= "btn btn-delete">Remove</button>
+                    </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <span class="cart-total-title">TOTAL</span>
+            <span class="cart-total-price">$46.55</span>
+        </div>
+        <div>
+        </div>
+            <button class="btn btn-primary btn-purchase">PURCHASE</button>
+      </div>
+  </body>
+</html>
